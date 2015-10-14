@@ -2,8 +2,8 @@ set nocompatible
 filetype off
 
 " Setup Vundle
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 " Manage bundles
 Bundle 'gmarik/vundle'
@@ -14,6 +14,7 @@ Bundle 'scrooloose/nerdcommenter'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'jnwhiteh/vim-golang'
 Bundle 'kchmck/vim-coffee-script'
+Plugin 'wincent/command-t'
 
 " Misc
 let mapleader=","      "Set the best leader
