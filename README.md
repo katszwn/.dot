@@ -7,6 +7,7 @@ Installation
 ------------
 
 ```bash
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 git clone git://github.com/sognat/.dot ~/.dot
 ln -s ~/.dot/gitignore ~/.gitignore
 ln -s ~/.dot/inputrc ~/.inputrc
